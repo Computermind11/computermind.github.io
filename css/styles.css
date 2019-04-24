@@ -21,6 +21,10 @@ a {
     outline: none;
 }
 
+h1, h3, h4, p {
+    font-family: ArialMT;
+}
+
 /* container's start */
 .container {
     width: 1280px;
@@ -33,18 +37,27 @@ a {
 
 /* header's start */
 .header {
-    height: 353px;
     background-color: #445162;
-    margin-top: -60px;
 }
 
 .header h1 {
-    font-family: ArialMT;
     font-size: 60px;
     font-weight: 400;
-    padding: 50px 0px 0px 50px;
+    margin: 0px;
+    padding: 50px 0px 30px 50px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
     color: #ffffff;
+    float: left;
+}
+
+.header img[alt="logo"] {
+    margin: 60px 50px 0px 0px;
+    float: right;
+}
+
+.ul {
+    padding-bottom: 50px;
+    clear: left;
 }
 
 .ul li {
@@ -57,40 +70,33 @@ a {
     line-height: 36px;
     margin-left: 90px;
 }
-
-.header img[alt="shape"] {
-    float: right;
-    padding-right: 50px;
-    margin-top: -230px;
-}
 /* header's end */
 
 /* main's start */
 
 /* first section's start */
 .s1 h3 {
-    font-family: ArialMT;
     color: #445161;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
     margin: 50px 0px 30px 50px;
+    float: left;
+}
+
+.s1 img[alt="video"] {
+    margin: 50px 50px 0px 0px;
+    float: right;
 }
 
 .s1 p {
-    font-family: ArialMT;
     color: #333333;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     margin: 0px 100px 20px 50px;
     width: 51%;
-}
-
-.s1 img[alt="video"] {
-    float: right;
-    padding-right: 50px;
-    margin-top: -245px;
+    clear: left;
 }
 /* first section's end */
 
@@ -108,7 +114,6 @@ a {
 }
 
 .s2 h3 {
-    font-family: ArialMT;
     color: #445161;
     font-size: 30px;
     font-weight: 400;
@@ -156,6 +161,176 @@ a {
     left: -40px;
 }
 /* second section's end */
+
+/* third section's start */
+.s3 h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #445161;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.f1 {
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.f1 img[alt="image"] {
+    margin: 35px 15px 0px 50px;
+    float: left;
+}
+
+.f1 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.f1 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.f2 img[alt="image"] {
+    margin: 35px 15px 0px 0px;
+    float: left;
+}
+
+.f2 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.f2 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.f3 {
+    clear: left;
+    float: left;
+    width: 48%;
+    margin-right: 25px;
+}
+
+.f3 img[alt="image"] {
+    margin: 30px 15px 0px 50px;
+    float: left;
+}
+
+.f3 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+.f3 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.f4 img[alt="image"] {
+    margin: 30px 15px 50px 15px;
+    float: left;
+}
+
+.f4 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+.f4 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 50px;
+}
+/* third section's end */
+
+/* fourth section's start */
+.s4 {
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    clear: both;
+}
+
+.s4 h3 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.s4 span {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.text1 {
+    margin-bottom: 70px;
+}
+
+.text1 img {
+    float: left;
+    margin: 0px 15px 0px 50px;
+    padding-bottom: 20px;
+}
+
+.text1 p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    font-style: italic;
+    width: 45%;
+}
+
+.text2 {
+    margin-bottom: 70px;
+}
+
+.text2 img {
+    float: left;
+    margin: 0px 15px 0px 50px;
+    padding-bottom: 20px;
+}
+
+.text2 p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    font-style: italic;
+    width: 45%;
+}
+/* fourth section's end */
 /* main's end */
 /* container's end */
 /* body's end */
