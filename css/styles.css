@@ -1,0 +1,482 @@
+@font-face {
+    font-family: ArialMT;
+    src: url(../fonts/ArialMT.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+/* body's start */
+body {
+    height: 100%;
+}
+
+a {
+    outline: none;
+}
+
+h1, h3, h4, p, span, ol, a {
+    font-family: ArialMT;
+}
+
+/* container's start */
+.container {
+    width: 1280px;
+    margin: 0px auto;
+    min-height: 100%;
+    border-width: 1px 1px 0px 1px;
+    border-color: #e9eaec;
+    border-style: solid;
+}
+
+/* header's start */
+.header {
+    background-color: #445162;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 50px 0px 30px 50px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    float: left;
+}
+
+.header img[alt="logo"] {
+    margin: 60px 50px 0px 0px;
+    float: right;
+}
+
+.ul {
+    padding-bottom: 50px;
+    clear: left;
+}
+
+.ul li {
+    list-style-image: url(../img/check_icon.png);
+    font-family: ArialMT;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 90px;
+}
+/* header's end */
+
+/* main's start */
+
+/* first section's start */
+.s1 h3 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 50px 0px 30px 50px;
+    float: left;
+}
+
+.s1 img[alt="video"] {
+    margin: 50px 50px 0px 0px;
+    float: right;
+}
+
+.s1 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 100px 20px 50px;
+    width: 51%;
+    clear: left;
+}
+/* first section's end */
+
+/* second section's start */
+.s2 {
+    background-color: #f5f5f5;
+    margin-top: 70px;
+}
+
+.s2:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.s2 h3 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    clear: right;
+    padding: 50px 0px 30px 0px;
+}
+
+.ul1 {
+    float: left;
+    width: 40%;
+    margin-left: 90px;
+}
+
+.ul2 {
+    float: right;
+    width: 40%;
+    margin-right: 70px;
+}
+
+.s2 ul li {
+    list-style-type: none;
+    font-family: ArialMT;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 35px;
+    position: relative;
+}
+
+.s2 ul li:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+/* second section's end */
+
+/* third section's start */
+.s3 h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #445161;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.f1 {
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.f1 img[alt="image"] {
+    margin: 35px 15px 0px 50px;
+    float: left;
+}
+
+.f1 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.f1 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.f2 img[alt="image"] {
+    margin: 35px 15px 0px 0px;
+    float: left;
+}
+
+.f2 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.f2 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.f3 {
+    clear: left;
+    float: left;
+    width: 48%;
+    margin-right: 25px;
+}
+
+.f3 img[alt="image"] {
+    margin: 30px 15px 0px 50px;
+    float: left;
+}
+
+.f3 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+.f3 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.f4 img[alt="image"] {
+    margin: 30px 15px 50px 15px;
+    float: left;
+}
+
+.f4 h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+.f4 p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 50px;
+}
+/* third section's end */
+
+/* fourth section's start */
+.s4 {
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    clear: both;
+}
+
+.s4 h3 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.re1 {
+    margin: 0px 30px 30px 50px;
+    float: left;
+    width: 45%;
+}
+
+.re1 img {
+    margin-right: 40px;
+    padding-bottom: 45px;
+    float: left;
+}
+
+.re1 p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: italic;
+    background: url(../img/review_product.png) right no-repeat;
+    padding: 7px 7px 7px 30px;
+}
+
+.re2 img {
+    margin-right: 20px;
+    padding-bottom: 45px;
+    float: left;
+}
+
+.re2 p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: italic;
+    background: url(../img/review_product.png) right no-repeat;
+    padding: 7px 7px 7px 30px;
+    overflow: hidden;
+    width: 35%;
+}
+
+.re3 {
+    margin: 0px 30px 0px 50px;
+    width: 45%;
+    float: left;
+}
+
+.re3 img {
+    margin-right: 40px;
+    padding-bottom: 45px;
+    float: left;
+}
+
+.re3 p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: italic;
+    background: url(../img/review_product.png) right no-repeat;
+    padding: 7px 7px 7px 30px;
+}
+
+.re4 {
+    padding-bottom: 80px;
+    margin-top: 30px;
+    padding-top: 35px;
+}
+
+.re4 img {
+    margin-right: 20px;
+    padding-bottom: 45px;
+    float: left;
+}
+
+.re4 p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: italic;
+    background: url(../img/review_product.png) right no-repeat;
+    padding: 7px 7px 7px 30px;
+    overflow: hidden;
+    width: 35%;
+}
+/* fourth section's end */
+
+/* fifth section's start */
+.s5 {
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.s5 h3 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.standart {
+    float: left;
+    overflow: hidden;
+    margin: 189px 25px 0px 40px;
+    width: 30%;
+    background-color: #445162;
+    border-radius: 5px;
+}
+
+.premium {
+    float: left;
+    overflow: hidden;
+    margin: 94px 25px 0px 0px;
+    width: 30%;
+    background-color: #445162;
+    border-radius: 5px;
+}
+
+.lux {
+    overflow: hidden;
+    width: 30%;
+    background-color: #445162;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.sp1 {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: #445162;
+    padding: 15px 0px 15px 0px;
+}
+
+.sp2 {
+    display: block;
+    text-align: center;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: #ffffff;
+    padding: 18px 0px 18px 0px;
+    border: 2px solid #445162;
+}
+
+.s5 ol {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #445162;
+    padding: 15px 0px 15px 25px;
+    list-style-position: inside;
+}
+
+.link {
+    display: block;
+    background: #ffffff;
+    width: 86%;
+    height: 42px;
+    line-height: 42px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #445161;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 20px 27px;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    background-color: aqua;
+    border: 1px solid orange;
+    height: 40px;
+}
+
+.link:active {
+    background-color: #ffffff;
+    border: none;
+    height: 42px;
+}
+/* fifth section's end */
+/* main's end */
+/* container's end */
+/* body's end */
+
+/* Additional comments */
