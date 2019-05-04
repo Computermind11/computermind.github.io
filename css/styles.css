@@ -18,7 +18,7 @@ body {
     font-family: ArialMT;
 }
 
-h1, h3, h4, p, span, li, legend:hover {
+h1, h3, h4, p, span, li, legend {
     cursor: default;
 }
 
