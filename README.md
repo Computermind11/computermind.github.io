@@ -1,2 +1,2 @@
 # computermind.github.io
-Repository for my homework
+Repository for my homework!
