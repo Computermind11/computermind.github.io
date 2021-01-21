@@ -9,18 +9,18 @@ import SendIcon from "material-ui/svg-icons/content/send";
 export default class MessengerBlock extends React.Component {
   state = {
     messages: [{text: "Hello!", user: "Robot"}],
-    input: ""
+    input: "",
+    timeOut: null
   };
   componentDidUpdate() {
-    if (this.state.messages[this.state.messages.length - 1].user === "Ivan") {
-      setTimeout(() => {
+    clearTimeout(this.state.timeOut);
+    if (this.state.messages[this.state.messages.length - 1].user !== "Robot") {
+      this.state.timeOut = setTimeout(() => {
         this.setState({messages: [...this.state.messages, {text: "Don't worry me, I'm Robot!", user: "Robot"}]});
-        document.querySelector("input").removeAttribute("disabled", "true");
       }, 1500);
     }
   }
   sendMessage = (message) => {
-    document.querySelector("input").setAttribute("disabled", "true");
     this.setState({
       messages: [...this.state.messages, {text: message, user: "Ivan"}],
       input: ""
