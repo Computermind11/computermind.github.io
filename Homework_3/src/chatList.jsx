@@ -5,12 +5,11 @@ import Message from "./message.jsx";
 
 
 export default class ChatList extends React.Component {
+  renderMessageElements = () => this.props.messages.map((message, index) => (<Message key={index} message={message}/>));
   render() {
-    const messageElements = this.props.messages.map((message, index) => (<Message key={index} message={message}/>));
-
     return (
       <div className="chatList">
-        {messageElements}
+        {this.renderMessageElements()}
       </div>
     )
   }
