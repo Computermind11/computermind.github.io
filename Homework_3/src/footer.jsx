@@ -7,8 +7,8 @@ export default class Footer extends React.Component {
   state = {
     year: null
   };
-  componentWillMount() {
-    let year = new Date;
+  componentDidMount() {
+    const year = new Date;
     this.setState({year: year.getFullYear()})
   }
   render() {
